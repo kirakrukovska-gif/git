@@ -50,14 +50,3 @@ cur.execute("SELECT name, type FROM Animals;")
 res = cur.fetchall()
 print("Усі тварини - " , res)
 connection.close()
-
-
-
-
-
-
-
-
- 
- 
- 
